@@ -195,6 +195,15 @@ search.map(all=>{
             recommendations = recommendations.concat(all.musical)
     })
 //alert(recommendations)
+        let dcells = document.getElementById("data");
+            dcells.innerHTML = " "
+    for(let c = 0; c < recommendations.length; c++){
+        let element = document.createElement("input")
+        let dcells = document.getElementById("data"); 
+            element.style.borderStyle = "hidden"
+        dcells.appendChild(element)
+        element.value = "("+ c +") " + recommendations[c]
+    }
 })
 </script>
 
