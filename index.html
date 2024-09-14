@@ -119,7 +119,7 @@
             <option>Hamilton</option>
             <option>Hello Dolly</option>
             -->
-      <form action="/action_page.php">
+<!--      <form action="/action_page.php">
         <label for="musical1">Musical 1:</label>
         <input type="text" id="musical1" name="musical1"><br><br>
          <label for="musical2">Musical 2:</label>
@@ -130,6 +130,44 @@
           <button onclick="process()">Submit</button>
         <script src="app.js"></script>
       </form>
+      -->
+
+      <script>
+    function findMusical(){
+        var musical1 = document.getElementById("musical1").value;
+        var musical2 = document.getElementById("musical2").value;
+        var musical3 = document.getElementById("musical3").value;
+         let dataE = []
+       dataE.push(musical1);
+       dataE.push(musical2);
+       dataE.push(musical3);
+       
+// dataE is the variable that stores the values (interests selected) from the html
+var search = dataE, categories = [];
+      
+search.map(all=>{
+    musicals.map(r=>{
+        if(all === r.muscial) categories=categories.concat(r.category);
+    })
+})
+      musicals.map(all =>{
+    categories.map(category =>{
+        if(all.category.includes(category)&&recommendations.indexOf(all.musical)===-1)
+            recommendations = recommendations.concat(all.musical)
+    })
+alert(recommendations)
+})
+</script>
+
+<form>
+    Input 3 Musicals:<br>
+    <input type="text" name="musical1" id = "musical1"><br>
+    <input type="text" name="musical2" id = "musical2"><br>
+    <input type="text" name="musical3" id = "musical3"><br>
+    <input type="button" value="Submit" id = "submit"
+           onClick = "findMusical()">
+</form>
+      
       <br><br>
          <h2>Recommendations</h2>
         <div class="data" id="data">
