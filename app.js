@@ -42,8 +42,10 @@ let recommendations = [];
 let cat1 = document.getElementById("cat1").value;
 let cat2 = document.getElementById("cat2").value;
 let cat3 = document.getElementById("cat3").value;
-    // Get the value of the input field
-   
+    let dataE = []
+       dataE.push(cat1);
+       dataE.push(cat2);
+       dataE.push(cat3);
        
 // dataE is the variable that stores the values (interests selected) from the html
 var search = dataE, categories = [];
