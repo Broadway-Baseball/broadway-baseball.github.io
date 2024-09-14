@@ -135,6 +135,7 @@
 
       <script src = "app.js">
         // this is  the dataset, you can add as many categories as you want
+// this is  the dataset, you can add as many categories as you want
 var musicals = [       
     // This is the datases. 
     // Each interest is linked to categories
@@ -172,30 +173,43 @@ var musicals = [
     { musical : "Hamilton", category : ["Lin-Manuel Miranda", "2010s", "English"]},
     { musical : "Hello Dolly", category : ["Jerry Herman", "Michael Stewart", "1960s", "English"]},    
     ];
-        
-    function findMusical(){
-        var musical1 = document.getElementById("musical1").value;
-        var musical2 = document.getElementById("musical2").value;
-        var musical3 = document.getElementById("musical3").value;
-         let dataE = []
+// Below is the function that processes the interests given
+function process(){
+let recommendations = [];
+//let cat1 = document.getElementById("cat1").value;
+//let cat2 = document.getElementById("cat2").value;
+//let cat3 = document.getElementById("cat3").value;
+function displayInput() {
+    // Get the value of the input field
+    var musical1 = document.getElementById("musical1").value;
+    var musical2 = document.getElementById("musical2").value;
+    var musical3 = document.getElementById("musical3").value;
+}
+    let dataE = []
        dataE.push(musical1);
        dataE.push(musical2);
        dataE.push(musical3);
+       
 // dataE is the variable that stores the values (interests selected) from the html
 var search = dataE, categories = [];
-      
+
 search.map(all=>{
     musicals.map(r=>{
-        if(all === r.muscial) categories=categories.concat(r.category);
+        if(all === r.musical) categories=categories.concat(r.category);
     })
 })
-      musicals.map(all =>{
+// You can check the categories which the interests a user selected belong to --
+ // console.log(categories)
+    
+musicals.map(all =>{
     categories.map(category =>{
         if(all.category.includes(category)&&recommendations.indexOf(all.musical)===-1)
             recommendations = recommendations.concat(all.musical)
     })
+})
+    // the code above gets all the interests from the categories which where stored, because each interest in linked to another by a category
 //alert(recommendations)
-        let dcells = document.getElementById("data");
+     let dcells = document.getElementById("data");
             dcells.innerHTML = " "
     for(let c = 0; c < recommendations.length; c++){
         let element = document.createElement("input")
@@ -204,7 +218,9 @@ search.map(all=>{
         dcells.appendChild(element)
         element.value = "("+ c +") " + recommendations[c]
     }
-})
+
+
+}
 </script>
 
 <form>
