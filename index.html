@@ -142,7 +142,6 @@
        dataE.push(musical1);
        dataE.push(musical2);
        dataE.push(musical3);
-       
 // dataE is the variable that stores the values (interests selected) from the html
 var search = dataE, categories = [];
       
@@ -156,7 +155,7 @@ search.map(all=>{
         if(all.category.includes(category)&&recommendations.indexOf(all.musical)===-1)
             recommendations = recommendations.concat(all.musical)
     })
-alert(recommendations)
+//alert(recommendations)
 })
 </script>
 
