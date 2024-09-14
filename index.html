@@ -22,11 +22,28 @@
   <h2>Discover a world of musicals</h2>
   <br><br>
   <h3>A place to rate, review, and recommend musicals</h3>
- <h1>Recommendation Engine</h1>
+ <h1>Select 3 Musicals:</h1>
     <div>
+      <!--
         <select id="cat1">
             <option>select option</option>
-            <option>A Little Night Music</option>
+             <option>13</option>
+          <option>1776</option>
+          <option>110 in the Shade</option>
+          <option>1600 Pennsylvania Avenue</option>
+          <option>42nd Street</option>
+          <option>70 Girls 70</option>
+          <option>9 to 5</option>
+          <option>A Bronx Tale</option>
+          <option>A Catered Affair</option>
+          <option>A Chorus Line</option>
+          <option>A Christmas Story</option>
+          <option>A Class Act<option>
+            <option>A Funny Thing Happened on the Way to the Forum</option>
+          <option>A Gentleman's Guide to Love and Murder</option>
+           <option>A Little Night Music</option>
+          <option>A Night With Janis Joplin</option>
+          <option>A Strange Loop</option>
             <option>Cabaret</option>
             <option>Chicago</option>
             <option>Come From Away</option>
@@ -41,7 +58,23 @@
         </select><br>    
         <select id="cat2">
             <option>select option</option>
+            <option>13</option>
+          <option>1776</option>
+          <option>110 in the Shade</option>
+          <option>1600 Pennsylvania Avenue</option>
+          <option>42nd Street</option>
+          <option>70 Girls 70</option>
+          <option>9 to 5</option>
+          <option>A Bronx Tale</option>
+          <option>A Catered Affair</option>
+          <option>A Chorus Line</option>
+          <option>A Christmas Story</option>
+          <option>A Class Act<option>
+            <option>A Funny Thing Happened on the Way to the Forum</option>
+          <option>A Gentleman's Guide to Love and Murder</option>
            <option>A Little Night Music</option>
+          <option>A Night With Janis Joplin</option>
+          <option>A Strange Loop</option>
             <option>Cabaret</option>
             <option>Chicago</option>
             <option>Come From Away</option>
@@ -85,10 +118,18 @@
             <option>Hairspray</option>
             <option>Hamilton</option>
             <option>Hello Dolly</option>
-            
-        
+            -->
+      <form action="/action_page.php">
+        <label for="musical1">Musical 1:</label>
+        <input type="text" id="musical1" name="musical1"><br><br>
+         <label for="musical2">Musical 2:</label>
+        <input type="text" id="musical2" name="musical2"><br><br>
+         <label for="musical3">Musical 3:</label>
+        <input type="text" id="musical3" name="musical3"><br><br>
         </select><br><br>
           <button onclick="process()">Submit</button>
+        <script src="app.js"></script>
+      </form>
       <br><br>
          <h2>Recommendations</h2>
         <div class="data" id="data">
