@@ -39,19 +39,11 @@ var musicals = [
 // Below is the function that processes the interests given
 function process(){
 let recommendations = [];
-//let cat1 = document.getElementById("cat1").value;
-//let cat2 = document.getElementById("cat2").value;
-//let cat3 = document.getElementById("cat3").value;
-function displayInput() {
+let cat1 = document.getElementById("cat1").value;
+let cat2 = document.getElementById("cat2").value;
+let cat3 = document.getElementById("cat3").value;
     // Get the value of the input field
-    var musical1 = document.getElementById("musical1").value;
-    var musical2 = document.getElementById("musical2").value;
-    var musical3 = document.getElementById("musical3").value;
-}
-    let dataE = []
-       dataE.push(musical1);
-       dataE.push(musical2);
-       dataE.push(musical3);
+   
        
 // dataE is the variable that stores the values (interests selected) from the html
 var search = dataE, categories = [];
