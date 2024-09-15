@@ -4,20 +4,20 @@ var interests = [
     // This is the datases. 
     // Each interest is linked to categories
     // The script determines what interest a person could have in other categories that are linked to the interests the person chose
-   { interest : "13", category : ["Jason Robert Brown", "Dan Elish"]},
-    { interest : "1776", category : ["Sherman Edwards", "Peter Stone"]},
-    { interest : "110 in the Shade", category : ["Harvey Schmidt", "Tom Jones", "N Richard Nash"]},
-    { interest : "1600 Pennsylvania Avenue", category : ["Leonard Bernstein", "Alan Jay Lerner"]},
-    { interest : "42nd Street", category : ["Harry Warren", "Al Dubin", "Johnny Mercer", "Michael Stewart"]},
-    { interest : "70 Girls 70", category : ["John Kander", "Fred Ebb"]},
+  { interest : "13", category : ["Jason Robert Brown", "Dan Elish", "Robert Horn", "2000s", "English", "Comedy", "Indiana", "teens", "school", "bullying", "friendship", "betrayal", "jealousy", "first kiss", "middle school", "Jewish"]},
+{ interest : "1776", category : ["Sherman Edwards", "Peter Stone", "1960s", "English", "Tony Best Musical", "Drama", "Comedy", "Historical", "Biographical", "Philadelphia", "revolution", "war", "independence", "history", "politics"]},
+{ interest : "110 in the Shade", category : ["Harvey Schmidt", "Tom Jones", "N Richard Nash", "1960s", "English", "Drama", "Comedy", "Romance", "small town", "love", "family", "transformation", 'dreams", "rain"]},
+{ interest : "1600 Pennsylvania Avenue", category : ["Leonard Bernstein", "Alan Jay Lerner", "1970s", "English", "Historical", "Biographical", "history", "presidents", "flop"]},
+{ interest : "42nd Street", category : ["Harry Warren", "Al Dubin", "Johnny Mercer", "Michael Stewart", "1930s", "1980s", "English", "Comedy", "Tony Best Musical", "New York City", "show business", "backstage musical", "movie adaptation", "small town", "triple threat", "tap dance", "Mark Bramble"]},
+{ interest : "70 Girls 70", category : ["John Kander", "Fred Ebb", "1970s", "English", "Comedy", "New York City", "seniors", "show business"]},
 
-     
-    { interest : "9 to 5", category : ["Dolly Parton", "Patricia Resnick"]},
-    { interest : "A Little Night Music", category : ["Stephen Sondheim", "Hugh Wheeler"]},
-    { interest : "Cabaret", category : ["John Kander", "Fred Ebb", "Joe Masteroff"]},
-    { interest : "Chicago", category : ["John Kander", "Fred Ebb","Bob Fosse"]},
-    { interest : "Come From Away", category : ["Irene Sankoff", "David Hein"]},
-    { interest : "Company", category : ["Stephen Sondheim", "George Furth"]},
+{ interest : "9 to 5", category : ["Dolly Parton", "Patricia Resnick", "2000s", "English", "Comedy", "America", "country", "women", "work", "sexism", "revenge", "kidnap", "empowerment", "secretary"]},
+{ interest : "A Little Night Music", category : ["Stephen Sondheim", "Hugh Wheeler", "1970s", "English", "Comedy", "Romance", "Sweden", "aristocracy", "affair", "unrequited love", "Tony Best Musical"]},
+{ interest : "Cabaret", category : ["John Kander", "Fred Ebb", "Joe Masteroff", "1960s", "English", "Drama", "Tony Best Musical", "Germany", "WWII", "Nazi", "night club", "anti-semitism", "Jewish"]},
+{ interest : "Chicago", category : ["John Kander", "Fred Ebb","Bob Fosse", "1970s", "English", "Dark Comedy", "Chicago", "murder", "jail", "vaudeville", "women", "justice", "law", "trial", "dance"]},
+{ interest : "Come From Away", category : ["Irene Sankoff", "David Hein", "2010s", "English", "Drama", "Historical", "Biographical", "Canada", "true story", "history", "charity", "visitors", "kindness"]},
+{ interest : "Company", category : ["Stephen Sondheim", "George Furth", "1970s", "English", "Comedy", "Dark Comedy", "Romance", "New York City", "relationship", "marriage", "bachelor", "dating", "romance", "love", "friendship", "vulnerability", "vignettes", "concept musiscal", "Tony Best Musical"]},
+
 { interest : "Evita", category : ["Andrew Lloyd Webber", "Tim Rice", "1970s", "English"]},
 { interest : "Follies", category : ["Stephen Sondheim", "James Goldman", "1970s", "English"]},
 { interest : "Gypsy", category : ["Stephen Sondheim", "Jules Styne", "Arthur Laurents", "1950s", "English"]},
@@ -45,8 +45,7 @@ var interests = [
 { interest : "The Last 5 Years", category : ["Jason Robert Brown", "2000s", "English"]},
 { interest : "Tick Tick Boom", category : ["Jonathan Larson", "2000s", "English"]},
 { interest : "West Side Story", category : ["Leonard Bernstein","Stephen Sondheim","Arthur Laurents", "1950s", "English"]},
-];
-// Below is the function that processes the interests given
+];// Below is the function that processes the interests given
 function process(){
 let recommendations = [];
 let cat1 = document.getElementById("cat1").value;
