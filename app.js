@@ -4,49 +4,47 @@ var interests = [
     // This is the datases. 
     // Each interest is linked to categories
     // The script determines what interest a person could have in other categories that are linked to the interests the person chose
-    { interest : "Technical support specialist", category : ["tech", "technology support"]},
-    { interest : "computer programming", category : ["tech", "programming"]},
-    { interest : "data analyst", category : ["data science", "data", "tech"]},
-    { interest : "web developer", category : ["tech"]},
-    { interest : "sales engineer", category : ["sales", "office jobs"]},
-    { interest : "Database administrator", category : ["data", "tech"]},
-    
-    { interest : "Cybersecurity specialist", category : ["security", "technology support"]},
-    { interest : "software engineer", category : ["programming", "tech"]},
-    { interest : "graphic designer", category : ["designer", "graphic"]},
-    { interest : "tutor", category : ["teaching", "writing","language"]},
-    { interest : "blogger", category : ["writing", "language"]},
-    { interest : "social media", category : ["ads", "marketing"]},    
-    
-   // business 
-    { interest : "business administration", category : ["business", "office jobs"]},
-    { interest : "economics", category : ["business", "management"]},
-    { interest : "accountant", category : ["management"]},
-    { interest : "marketing", category : ["marketing", "ads"]},
-    { interest : "accounting software", category : ["management"]},
-    { interest : "law firm", category : ["law"]},
-    
-    { interest : "agriculture", category : ["agric", "business"]},
-    { interest : "farming", category : ["agric", "crops","plants"]},
-    { interest : "fertilizer", category : ["crops", "chemicals", "agric"]},
-    { interest : "farm management", category : ["management", "agric"]},
-    { interest : "weather", category : ["crops", "plants"]},
-    { interest : "organic manure", category : ["chemicals", "agric"]},    
-    
-    
-    { interest : "online stores", category : ["ads", "business"]},
-    { interest : "content editing", category : ["writing"]},
-    { interest : "translation", category : ["writing", "language"]},
-    { interest : "affiliate marketing", category : ["ads", "business"]},
-    { interest : "photography", category : ["art","photoshop"]},
-    { interest : "photoshop", category : ["art","photoshop", "graphic"]}, 
-    
-    { interest : "Human resource", category : ["offie jobs", "law"]},
-    { interest : "SEO Professional", category : ["ads", "marketing"]},
-    { interest : "Virtual Assistant", category : ["language"]},
-    { interest : "CTO", category : ["tech", "office jobs"]},
-    { interest : "ceo", category : ["business","office","management"]},
-    { interest : "mining", category : ["gold", "copper", "minerals"]}, 
+   { interest : "13", category : ["Jason Robert Brown", "Dan Elish", "Robert Horn", "2000s", "English", "Comedy", "Indiana", "teens", "school", "bullying", "friendship", "betrayal", "jealousy", "first kiss", "middle school", "Jewish"]},
+{ interest : "1776", category : ["Sherman Edwards", "Peter Stone", "1960s", "English", "Tony Best Musical", "Drama", "Comedy", "Historical", "Biographical", "Philadelphia", "revolution", "war", "independence", "history", "politics"]},
+{ interest : "110 in the Shade", category : ["Harvey Schmidt", "Tom Jones", "N Richard Nash", "1960s", "English", "Drama", "Comedy", "Romance", "small town", "love", "family", "transformation", 'dreams", "rain"]},
+{ interest : "1600 Pennsylvania Avenue", category : ["Leonard Bernstein", "Alan Jay Lerner", "1970s", "English", "Historical", "Biographical", "history", "presidents", "flop"]},
+{ interest : "42nd Street", category : ["Harry Warren", "Al Dubin", "Johnny Mercer", "Michael Stewart", "1930s", "1980s", "English", "Comedy", "Tony Best Musical", "New York City", "show business", "backstage musical", "movie adaptation", "small town", "triple threat", "tap dance", "Mark Bramble"]},
+{ interest : "70 Girls 70", category : ["John Kander", "Fred Ebb", "1970s", "English", "Comedy", "New York City", "seniors", "show business"]},
+
+{ interest : "9 to 5", category : ["Dolly Parton", "Patricia Resnick", "2000s", "English", "Comedy", "America", "country", "women", "work", "sexism", "revenge", "kidnap", "empowerment", "secretary"]},
+{ interest : "A Little Night Music", category : ["Stephen Sondheim", "Hugh Wheeler", "1970s", "English", "Comedy", "Romance", "Sweden", "aristocracy", "affair", "unrequited love", "Tony Best Musical"]},
+{ interest : "Cabaret", category : ["John Kander", "Fred Ebb", "Joe Masteroff", "1960s", "English", "Drama", "Tony Best Musical", "Germany", "WWII", "Nazi", "night club", "anti-semitism", "Jewish"]},
+{ interest : "Chicago", category : ["John Kander", "Fred Ebb","Bob Fosse", "1970s", "English", "Dark Comedy", "Chicago", "murder", "jail", "vaudeville", "women", "justice", "law", "trial", "dance"]},
+{ interest : "Come From Away", category : ["Irene Sankoff", "David Hein", "2010s", "English", "Drama", "Historical", "Biographical", "Canada", "true story", "history", "charity", "visitors", "kindness"]},
+{ interest : "Company", category : ["Stephen Sondheim", "George Furth", "1970s", "English", "Comedy", "Dark Comedy", "Romance", "New York City", "relationship", "marriage", "bachelor", "dating", "romance", "love", "friendship", "vulnerability", "vignettes", "concept musiscal", "Tony Best Musical"]},
+
+{ interest : "Evita", category : ["Andrew Lloyd Webber", "Tim Rice", "1970s", "English"]},
+{ interest : "Follies", category : ["Stephen Sondheim", "James Goldman", "1970s", "English"]},
+{ interest : "Gypsy", category : ["Stephen Sondheim", "Jules Styne", "Arthur Laurents", "1950s", "English"]},
+{ interest : "Hadestown", category : ["Anais Mitchell", "2010s", "English"]},
+{ interest : "Hairspray", category : ["Marc Shaiman", "Scott Wittman", "Mark ODonnell", "2000s", "English"]},
+{ interest : "Hamilton", category : ["Lin-Manuel Miranda", "2010s", "English"]},
+
+{ interest : "Hello Dolly", category : ["Jerry Herman", "Michael Stewart", "1960s", "English"]},
+{ interest : "In the Heights", category : ["Lin-Manuel Miranda", "Quiara Alegria Hudes", "2000s", "English"]},
+{ interest : "Into the Woods", category : ["Stephen Sondheim", "James Lapine", "1980s", "English"]},
+{ interest : "Jesus Christ Superstar", category : ["Tim Rice", "Andrew Lloyd Webber", "1970s", "English"]},
+{ interest : "Les Miserables", category : ["Claude-Michel Schonberg", "Alain Boublil", "1980s", "English", "French"]},
+{ interest : "Little Shop of Horrors", category : ["Alan Menken", "Howard Ashman", "1980s", "English"]},
+
+
+{ interest : "Next to Normal", category : ["Tom Kitt", "Brian Yorkey", "2000s", "English"]},
+{ interest : "Phantom of the Opera", category : ["Andrew Lloyd Webber", "Charles Hart", "Richard Stillgoe", "1980s", "English"]},
+{ interest : "Schmicago", category : ["Cinco Paul", "Ken Daurio", "2020s", "English"]},
+{ interest : "Schmigadoon", category : ["Cinco Paul", "Ken Daurio", "2020s", "English"]},
+{ interest : "Spring Awakening", category : ["Duncan Sheik","Steven Sater", "2000s", "English"]},
+{ interest : "Sunday in the Park with George", category : ["Stephen Sondheim","James Lapine", "1980s", "English"]},
+
+{ interest : "Sweeney Todd: The Demon Barber of Fleet Street", category : ["Stephen Sondheim", "Hugh Wheeler", "1970s", "English"]},
+{ interest : "The 25th Annual Putnam County Spelling Bee", category : ["William Finn", "Rachel Sheinkin", "2000s", "English"]},
+{ interest : "The Last 5 Years", category : ["Jason Robert Brown", "2000s", "English"]},
+{ interest : "Tick Tick Boom", category : ["Jonathan Larson", "2000s", "English"]},
+{ interest : "West Side Story", category : ["Leonard Bernstein","Stephen Sondheim","Arthur Laurents", "1950s", "English"]},
 ];
 // Below is the function that processes the interests given
 function process(){
