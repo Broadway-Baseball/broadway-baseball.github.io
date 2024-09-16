@@ -18,9 +18,9 @@ var interests = [
 { interest : "Come From Away", category : ["Irene Sankoff", "David Hein", "2010s", "English", "Drama", "Historical", "Biographical", "Canada", "true story", "history", "charity", "visitors", "kindness"]},
 { interest : "Company", category : ["Stephen Sondheim", "George Furth", "1970s", "English", "Comedy", "Dark Comedy", "Romance", "New York City", "relationship", "marriage", "bachelor", "dating", "romance", "love", "friendship", "vulnerability", "vignettes", "concept musiscal", "Tony Best Musical"]},
 
-{ interest : "Evita", category : ["Andrew Lloyd Webber", "Tim Rice", "1970s", "English"]},
-{ interest : "Follies", category : ["Stephen Sondheim", "James Goldman", "1970s", "English"]},
-{ interest : "Gypsy", category : ["Stephen Sondheim", "Jules Styne", "Arthur Laurents", "1950s", "English"]},
+{ interest : "Evita", category : ["Andrew Lloyd Webber", "Tim Rice", "1970s", "English", "Tony Best Musical", "Drama", "Historical", "Biographical", "period", "Argentina", "Latin America", "power", "ruthless", "seductive", "politics", "rock opera"]},
+{ interest : "Follies", category : ["Stephen Sondheim", "James Goldman", "1970s", "English", "Drama", "nostalgia", "backstage musical", "vaudeville", "aging", "regret", "marriage", "infidelity"]},
+{ interest : "Gypsy", category : ["Stephen Sondheim", "Jules Styne", "Arthur Laurents", "1950s", "English", "Historical", "Biographical", "family", "backstage musical", "power", "stripping", "Golden Age musical"]},
 { interest : "Hadestown", category : ["Anais Mitchell", "2010s", "English"]},
 { interest : "Hairspray", category : ["Marc Shaiman", "Scott Wittman", "Mark ODonnell", "2000s", "English"]},
 { interest : "Hamilton", category : ["Lin-Manuel Miranda", "2010s", "English"]},
