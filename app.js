@@ -6,7 +6,7 @@ var interests = [
     // The script determines what interest a person could have in other categories that are linked to the interests the person chose
   { interest : "13", category : ["Jason Robert Brown", "Dan Elish", "Robert Horn", "2000s", "English", "Comedy", "Indiana", "teens", "school", "bullying", "friendship", "betrayal", "jealousy", "first kiss", "middle school", "Jewish"]},
 { interest : "1776", category : ["Sherman Edwards", "Peter Stone", "1960s", "English", "Tony Best Musical", "Drama", "Comedy", "Historical", "Biographical", "Philadelphia", "revolution", "war", "independence", "history", "politics", "founding fathers"]},
-{ interest : "110 in the Shade", category : ["Harvey Schmidt", "Tom Jones", "N Richard Nash", "1960s", "English", "Drama", "Comedy", "Romance", "small town", "love", "family", "transformation", 'dreams", "rain"]},
+{ interest : "110 in the Shade", category : ["Harvey Schmidt", "Tom Jones", "N Richard Nash", "1960s", "English", "Drama", "Comedy", "Romance", "small town", "love", "family", "transformation", "dreams", "rain"]},
 { interest : "1600 Pennsylvania Avenue", category : ["Leonard Bernstein", "Alan Jay Lerner", "1970s", "English", "Historical", "Biographical", "history", "presidents", "flop"]},
 { interest : "42nd Street", category : ["Harry Warren", "Al Dubin", "Johnny Mercer", "Michael Stewart", "1930s", "1980s", "English", "Comedy", "Tony Best Musical", "New York City", "show business", "backstage musical", "movie adaptation", "small town", "triple threat", "tap dance", "Mark Bramble"]},
 { interest : "70 Girls 70", category : ["John Kander", "Fred Ebb", "1970s", "English", "Comedy", "New York City", "seniors", "show business"]},
